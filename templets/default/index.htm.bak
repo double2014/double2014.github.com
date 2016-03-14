@@ -8,7 +8,7 @@
 <meta name="author" content="design by www.dedesos.com" />
 <LINK href="/skin/css/master.css" rel=stylesheet>
 <LINK href="/skin/css/banner.css" rel="stylesheet">
-<link rel="alternate" type="application/rss+xml" title="{dede:field.title/}" href="http://127.0.0.1/rss.php"/>
+<link rel="alternate" type="application/rss+xml" title="{dede:field.title/}" href="http://qlsw988.com/rss.php"/>
 <script language="JavaScript" type="text/javascript" src="/skin/js/jquery.js"></script>
 <script language="JavaScript" type="text/javascript" src="/skin/js/search.js"></script>
 <script language="JavaScript" type="text/javascript" src="/skin/js/movead.js"></script>

@@ -1530,3 +1530,17 @@ body {
 	height:50px;
 	right: 188px;
 }
+#topcontrol {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: 503px;
+    opacity: 1;
+    cursor: pointer;
+}
+#topcontrol img{
+
+	width:53px; 
+	height:49px;
+
+}
