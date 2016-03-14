@@ -1,0 +1,1 @@
+<dt><h2>[<a href="[field:typelink /]"><b>[field:typename /]</b></a>]</h2></dt>

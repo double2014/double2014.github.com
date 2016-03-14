@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>搜索页_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<LINK href="/skin/css/master.css" rel=stylesheet>
+<LINK href="/skin/css/banner.css" rel="stylesheet">
+<script language="JavaScript" type="text/javascript" src="/skin/js/jquery.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/search.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/banner.js"></script>
+<!--[if IE 6.0]>
+<script type="text/javascript" src="/skin/js/iepngfix_tilebg.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div>{dede:include filename="head.htm"/}</div>
+<div class="topbg"> 
+<div class="banr">
+	<div class="banner_l">
+	 <div class="banner">
+	  <div class="banner-btn"><a href="javascript:;" class="prevBtn"><i></i></a> <a href="javascript:;" class="nextBtn"><i></i></a> 
+	  </div>
+	  <ul class="banner-img">
+		<li><a href="#"><img src="/skin/images/topbg.jpg"></a></li>
+		<li><a href="#"><img src="/skin/images/topbg1.jpg"></a></li>
+		<li><a href="#"><img src="/skin/images/topbg2.jpg"></a></li>
+	  </ul>
+	  <ul class="banner-circle"></ul>
+	 </div>
+	</div>	   
+</div>
+  <div class="subpages">
+    <div class="left">
+	  <div class="cont_l">
+	<div class="sidetop">
+	<a href="/product">生产中心</a>
+	<p></p>
+	</div>
+        <dl>
+          {dede:channel typeid='2'}
+			<dt>
+				{dede:type}
+				 <h3><a href="[field:typelink /]">[field:typename /]</a></h3>
+				{/dede:type}
+			</dt>
+
+			<dd>
+			{dede:channel type='son'}
+			 <a href='[field:typelink /]'>[field:typename/]</a><br>
+			{/dede:channel}
+			</dd>
+         {/dede:channel}
+        </dl>
+      </div>
+    </div>
+    <div class="right">
+      <div class="righttitle"> <span class="title"></span>
+        <p>搜索&nbsp;&nbsp;<strong class="fc_03c">{dede:global name='keyword' function='RemoveXSS(@me)'/}</strong>&nbsp;&nbsp;的结果&nbsp;&nbsp;</p>
+      </div>
+      <div class="about">
+        <ul class="newsul">
+          {dede:list perpage='10'}
+          <li><a href="[field:arcurl/]#content" title="[field:title/]">[field:title/]</a><span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></li>
+          {/dede:list}
+        </ul>
+        <div class="page" id="pagetop">
+          <ul>
+            {dede:pagelist listitem="index,end,pre,next,pageno"/}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div>{dede:include filename="footer.htm"/}</div>
+</body>
+</html>

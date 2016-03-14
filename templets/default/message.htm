@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<LINK href="/skin/css/master.css" rel=stylesheet>
+<LINK href="/skin/css/jbox.css" rel=stylesheet>
+<script language="JavaScript" type="text/javascript" src="/skin/js/jquery.js"></script>
+<!--[if IE 6.0]>
+<script type="text/javascript" src="/skin/js/iepngfix_tilebg.js"></script>
+<![endif]-->
+<script>
+  function check()
+  {
+	nickname=document.getElementById("nickname").value;
+	if(nickname=="")
+	{
+		alert("请输入姓名！")
+		return false;
+	}
+	
+	telephone=document.getElementById("telephone").value;
+	if(telephone=="")
+	{
+		alert("请输入电话！")
+		return false;
+	}
+	
+	title=document.getElementById("title").value;
+	if(title=="")
+	{
+		alert("请输入标题！")
+		return false;
+	}
+	
+	contents=document.getElementById("contents").value;
+	if(contents=="")
+	{
+		alert("请输入内容！")
+		return false;
+	}
+
+  }
+ 
+</script>
+</head>
+<body>
+<div> {dede:include filename="head.htm"/} </div>
+<div class="topbg">
+  <script language="JavaScript" type="text/javascript" src="/skin/js/banner.js"></script>
+  <LINK href="/skin/css/banner.css" rel="stylesheet">
+<div class="banr">
+	<div class="banner_l">
+	 <div class="banner">
+	  <div class="banner-btn"><a href="javascript:;" class="prevBtn"><i></i></a> <a href="javascript:;" class="nextBtn"><i></i></a> 
+	  </div>
+	  <ul class="banner-img">
+		<li><a href="#"><img src="/skin/images/topbg.jpg"></a></li>
+		<li><a href="#"><img src="/skin/images/topbg1.jpg"></a></li>
+		<li><a href="#"><img src="/skin/images/topbg2.jpg"></a></li>
+	  </ul>
+	  <ul class="banner-circle"></ul>
+	 </div>
+	</div>	   
+</div>
+  <div class="subpages">
+    <div class="left">
+       <div class="cont_l">
+
+	<div class="sidetop">
+	<a href="/product">生产中心</a>
+	<p></p>
+	</div>
+	   <dl>
+         {dede:channelArtlist typeid='2'}
+			<dt>
+				{dede:type}
+				 <h3><a href="[field:typelink /]">[field:typename /]</a></h3>
+				{/dede:type}
+			</dt>
+
+			<dd>
+			{dede:channel type='son'}
+			 <a href='[field:typelink /]'>[field:typename/]</a><br>
+			{/dede:channel}
+			</dd>
+         {/dede:channelArtlist}
+	   </dl>
+	</div>
+     
+    </div>
+    <div class="right">
+      <div class="righttitle"> <span class="title">在线留言</span>
+        <p><span>当前位置</span>&gt;{dede:type}<a href="[field:typelink /]">[field:typename /]</a>{/dede:type}</p>
+      </div>
+      <div class="about">
+        <div class="white">
+          <div class="bookmain">
+            <div class="bookline"></div>
+            <div class="clear"></div>
+            <div class="message">
+              <form action="/plus/diy.php#content" enctype="multipart/form-data" method="post">
+                <input type="hidden" name="action" value="post" />
+                <input type="hidden" name="diyid" value="1" />
+                <input type="hidden" name="do" value="2" />
+                <ul>
+				  <label for="name">
+                  <li>
+                    <p class="message_title"><span class="c_red">* </span>姓名：</p>
+                    <p class="message_content">
+					  <input type="text" name="name" id="name" class="k" />
+                    </p>
+                  </li></label>
+				  <label for="tel">
+                  <li>
+                    <p class="message_title"><span class="c_red">* </span>电话：</p>
+                    <p class="message_content">
+                      <input type="text" name="tel" id="tel" class="k" />
+                    </p>
+                  </li></label>
+				  <label for="email">
+                  <li>
+                    <p class="message_title">邮箱：</p>
+                    <p class="message_content">
+                      <input name="email" type="text" id="email" class="k" />
+                    </p>
+                  </li></label>
+				  <label for="bt">
+                  <li>
+                    <p class="message_title"><span class="c_red">* </span>标题：</p>
+                    <p class="message_content">
+                      <input name="bt" type="text" id="bt" class="k" />
+                    </p>
+                  </li></label>
+				  
+                  <li class="contentb">
+                    <p class="message_title"><label for="content"><span class="c_red">* </span>内容：</p>
+                    <p class="message_content">
+                      <textarea name="content" id="content"></textarea>
+                    </p>
+                  </li></label>
+                  <input type="hidden" name="dede_fields" value="name,text;tel,text;email,text;bt,text;content,text" />
+                  <input type="hidden" name="dede_fieldshash" value="418775805bab7b45b545fe97c40f0af8" />
+                  <li>
+                    <input type="submit" class="t" />
+                  </li>
+                </ul>
+              </form>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+ </div>
+  <div>{dede:include filename="footer.htm"/} </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<LINK href="/en/skin/css/master.css" rel=stylesheet>
+<script language="JavaScript" type="text/javascript" src="/en/skin/js/jquery.js"></script>
+<script language="JavaScript" type="text/javascript" src="/en/skin/js/search.js"></script>
+<!--[if IE 6.0]>
+<script type="text/javascript" src="/skin/js/iepngfix_tilebg.js"></script>
+<![endif]-->
+</head>
+<body>
+<div>{dede:include filename="head.htm"/} </div>
+<div class="topbg"> 
+  <script language="JavaScript" type="text/javascript" src="/en/skin/js/banner.js"></script>
+  <LINK href="/en/skin/css/banner.css" rel="stylesheet">
+  <div class="banner">
+    <div class="banner-btn"> <a href="javascript:;" class="prevBtn"><i></i></a> <a href="javascript:;" class="nextBtn"><i></i></a> </div>
+    <ul class="banner-img">
+      <li><a href="#"><img src="/en/skin/images/topbg.jpg"></a></li>
+      <li><a href="#"><img src="/en/skin/images/topbg.jpg"></a></li>
+      <li><a href="#"><img src="/en/skin/images/topbg.jpg"></a></li>
+    </ul>
+    <ul class="banner-circle">
+    </ul>
+  </div>
+  <div class="subpages">
+    <div class="left">
+      <div class="lefttitle">Product information</div>
+      <div class="leftborder">
+        <ul class="leftnav">
+          <ul>
+            {dede:channel type='son' row='10' typeid='2' currentstyle="
+            <li class='hover'><a href='/en~typelink~#content' ~rel~><span>~typename~</span></a></li>
+            "}
+            <li class="smallnav"><a href="/en[field:typeurl/]#content" title="[field:typename/]"><span>&gt;</span>[field:typename/]</a></li>
+            {/dede:channel}
+          </ul>
+        </ul>
+      </div>
+      <div class="leftcontact">
+        <div class="lefttitle">Contact Us</div>
+        <div class="leftborder">
+          <div class="leftborder2">
+            <p>Tel：029-3201-8608</p>
+            <p>Q　Q：463263454</p>
+            <p>P.C：712200</p>
+            <p>Email：Qinglan@163.com</p>
+            <p>Addr：Xixian New Area Fengxi New City Century Avenue (xianyang) shangshan jiayuan No.2 20601</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="righttitle"> <span class="title">{dede:field name='typeid' function="GetTopTypename(@me) /}</span>
+        <p><span>You are here:</span>&gt;{dede:type}<a href="/en[field:typelink /]">[field:typename /]</a>{/dede:type}</p>
+      </div>
+      <div class="about wenzi"> 
+        
+        <!--如果需要调取后台上传图片，请取消注释--> 
+        <!----> 
+        <!--调取后台上传图片-->
+        
+        <div> {dede:field.content/}</div>
+      </div>
+    </div>
+    <div class="clear"></div>
+ </div>
+ </div>
+  <div>{dede:include filename="footer.htm"/} </div>
+</body>
+</html>

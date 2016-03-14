@@ -1,0 +1,4 @@
+INSERT INTO `dede_search_keywords` VALUES('1','网络','网络','2','0','1441443099','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','富豪','富豪','2','1','1441443186','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','plant extracts','plant extracts extracts plant','15','0','1456986848','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','个人','个人','3','1','1456981661','0','0');

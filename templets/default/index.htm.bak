@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="author" content="design by www.dedesos.com" />
+<LINK href="/skin/css/master.css" rel=stylesheet>
+<LINK href="/skin/css/banner.css" rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="{dede:field.title/}" href="http://127.0.0.1/rss.php"/>
+<script language="JavaScript" type="text/javascript" src="/skin/js/jquery.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/search.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/movead.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/ghhs.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/showbanner.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/banner.js"></script>
+  <!--百度分享和qq客服-->
+  <script language="JavaScript" type="text/javascript" src="/skin/js/share.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/skin/js/qqserver.js"></script>
+  <!--百度分享和qq客服-->
+<!--[if IE 6.0]>
+<script type="text/javascript" src="/skin/js/iepngfix_tilebg.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="top"> 
+	<div class="top_box1">
+	   <div class="top1">
+		<div class="fl">欢迎您浏览陕西清蓝生物科技有限公司官方营销网站！</div>
+		<!--封面栏目调用多语言-->
+		<div class="fr">
+			<div class="lang">
+				<a href="/en/index.html" target="_blank">English</a><span>|</span>
+				<a href="{dede:globel.cfg_basehost/}">中文</a><span>|</span>
+				<a href="">网站地图</a><span>|</span>
+				<a href="http://www.qlsw988.com/rss.php" target="_blank">RSS订阅</a><span>|</span> 
+				<a href="http://www.qlsw988.com" title="植物提取物 - 植物提取专家 - 植物提取供应商 - 陕西清蓝生物科技有限公司" rel="sidebar" onclick="javascript:window.external.AddFavorite('http://www.qlsw988.com', '植物提取专家 - 陕西清蓝生物科技有限公司');return false;">收藏本站</a>
+		    </div>
+		  </div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="top_box2">
+		<div class="top2">
+			<div class="logol"><a href="/" title="{dede:global.cfg_webname/}"><img src="/skin/images/logo.png" alt="{dede:global.cfg_webname/}" class="logo" /></a>
+			</div>
+			<div class="logor"></div>
+
+			<div class="tel">
+			  <div class="trb">
+				<p>咨询热线</p>
+				<p class="number">86-029-32067889</p>
+				<div class="clear"></div>
+			  </div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="clear" id="navspice"></div>
+  <div class="navbg">
+    <ul class="nav">
+      <li><a href="/" title="{dede:global.cfg_webname/}" class="hover">首页</a></li>
+      {dede:channel type='top' row='10' currentstyle="
+      <li><a href='~typelink~' ~rel~><span>~typename~</span></a></li>
+      "}
+      <li><a href="[field:typeurl/]#content" title="[field:typename/]">[field:typename/]</a></li>
+	  {/dede:channel}
+    </ul>
+  </div>
+  <div class="marqueebg">
+	<div class="marquees">
+	 <div class="marquee"><span>最新公告：</span><marquee behavior="alternate" onstart="this.firstChild.innerHTML+=this.firstChild.innerHTML;" scrollamount="5" scrolldelay="1" width="760" onmouseover="this.stop();" onmouseout="this.start();">本公司网站系统正式上线，欢迎大家访问！</marquee></div>
+     <div class="search">
+      <form  name="formsearch" action="/plus/search.php#content">
+        <input type="text" class="text" name="q" id="search-keyword" value="植物提取物" onblur="if(this.value ==''||this.value == '植物提取物'){this.value = '植物提取物';this.style.color = '#FCAD14';}" onfocus="if(this.value == '植物提取物'){this.value = '';this.style.color = '#000';}" />
+        <input name="input" title="搜索" type="image" src="/skin/images/button.jpg" value="" style="cursor:hand;" class="button"/>
+      </form>
+     </div>
+	</div>
+  </div>
+</div>
+
+<div class="banr">
+	<div class="banner_l">
+	 <div class="banner">
+	  <div class="banner-btn"><a href="javascript:;" class="prevBtn"><i></i></a> <a href="javascript:;" class="nextBtn"><i></i></a> 
+	  </div>
+	  <ul class="banner-img">
+		<li><a href="#"><img src="/skin/images/topbg.jpg"></a></li>
+		<li><a href="#"><img src="/skin/images/topbg1.jpg"></a></li>
+		<li><a href="#"><img src="/skin/images/topbg2.jpg"></a></li>
+	  </ul>
+	  <ul class="banner-circle"></ul>
+	 </div>
+	</div>	   
+</div>
+
+<div class="zizhi">
+	<div class="cont_l">
+
+	<div class="sidetop">
+	<a href="/product">生产中心</a>
+	<p></p>
+	</div>
+	   <dl>
+         {dede:channelArtlist typeid='2'}
+			<dt>
+				{dede:type}
+				 <h3><a href="[field:typelink /]">[field:typename /]</a></h3>
+				{/dede:type}
+			</dt>
+
+			<dd>
+			{dede:channel type='son'}
+			 <a href='[field:typelink /]'>[field:typename/]</a><br>
+			{/dede:channel}
+			</dd>
+         {/dede:channelArtlist}
+	   </dl>
+	</div>
+	<div class="cont_r">
+	  
+		<a href="/about"></a>
+		<h2>公司介绍</h2>
+		<a class="more" href="/about#content" title="更多">+更多</a>
+		<div class="jshao">
+		{dede:sql sql='Select content from dede_arctype where id=1'} 
+
+		[field:content function='cn_substr(html2text(@me),10000)'/] 
+
+		{/dede:sql}
+		</div>
+	</div>
+	<div class="show">
+	  <div class="invite">
+	  <hr/>
+	  <h2>产品展示</h2>
+		<a href="/a/cpzs">
+			
+			<a class="more" href="/cpzs#content" title="更多">+更多</a>	
+		</a>
+	  </div>
+	 <div id="banner_box">
+	  <div id="show_box">
+	 <ul>
+		 <li class="proul_top">
+			{dede:arclist limit='0,6' titlelen=32 typeid='9' orderby='hot' orderway='desc'}
+			<div class="list_box">
+			  <div class="img_box">
+				<a href="[field:arcurl/]#content" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" /></a><div class="img_logo"></div>
+			  </div>
+
+			  <div class="ff">
+				<div class="fl">
+					<a href="[field:arcurl/]#content" title="[field:title/]">[field:title/]</a>
+				</div>
+				<div class="fr"><a href="[field:arcurl/]#content"><span>查看详情</span></a></div>
+				<div class="clear"></div>
+			  </div>
+			</div>
+			{/dede:arclist}
+		 </li>
+
+		 <li class="proul_top">
+			{dede:arclist limit='6,6' titlelen=32 typeid='9' orderby='hot' orderway='desc'}
+			<div class="list_box">
+			  <div class="img_box">
+				<a href="[field:arcurl/]#content" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" /></a><div class="img_logo"></div>
+			  </div>
+
+			  <div class="ff">
+				<div class="fl">
+					<a href="[field:arcurl/]#content" title="[field:title/]">[field:title/]</a>
+				</div>
+				<div class="fr"><a href="[field:arcurl/]#content"><span>查看详情</span></a></div>
+				<div class="clear"></div>
+			  </div>
+			</div>
+			{/dede:arclist}
+		 </li>
+
+		 <li class="proul_top">
+			{dede:arclist limit='12,6' titlelen=32 typeid='9' orderby='hot' orderway='desc'}
+			<div class="list_box">
+			  <div class="img_box">
+				<a href="[field:arcurl/]#content" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" /></a><div class="img_logo"></div>
+			  </div>
+
+			  <div class="ff">
+				<div class="fl">
+					<a href="[field:arcurl/]#content" title="[field:title/]">[field:title/]</a>
+				</div>
+				<div class="fr"><a href="[field:arcurl/]#content"><span>查看详情</span></a></div>
+				<div class="clear"></div>
+			  </div>
+			</div>
+			{/dede:arclist}
+		 </li>
+		  <li class="proul_top">
+			{dede:arclist limit='18,6' titlelen=32 typeid='9' orderby='hot' orderway='desc'}
+			<div class="list_box">
+			  <div class="img_box">
+				<a href="[field:arcurl/]#content" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" /></a><div class="img_logo"></div>
+			  </div>
+
+			  <div class="ff">
+				<div class="fl">
+					<a href="[field:arcurl/]#content" title="[field:title/]">[field:title/]</a>
+				</div>
+				<div class="fr"><a href="[field:arcurl/]#content"><span>查看详情</span></a></div>
+				<div class="clear"></div>
+			  </div>
+			</div>
+			{/dede:arclist}
+		 </li>
+	 </ul>
+	<script>
+		var speed=3000; 
+		var tab=document.getElementById("show_box");
+
+		var ul=tab.getElementsByTagName("ul")[0]; 
+		ul.innerHTML=ul.innerHTML+ul.innerHTML;
+		function Marquee(){ 
+		if(ul.offsetLeft <=-3072){ 
+		ul.style.left=0; 
+		}
+		else{ 
+		ul.style.left=ul.offsetLeft-768 + 'px'; 
+		} 
+		} 
+		var MyMar=setInterval(Marquee,speed); 
+		tab.onmouseover=function() {clearInterval(MyMar)}; 
+		tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+	</script>
+   </div>
+   </div>
+   </div>
+  </div>
+<div class="clear"></div>
+</div>
+
+<div class="topbg">
+  <div class="con2">
+    <div class="con2left">
+      <h2 class="news_title">新闻动态</h2><a class="more" href="/qldt#content" title="更多">+更多</a>
+      <div class="con2border1">
+        <div class="con2border2">
+          <div class="adimg"> 
+            <SCRIPT>   
+			   {dede:arclist row=5 titlelen=60 typeid='10'}             
+				var widths=183;    /*显示高度*/
+				var heights=131;   /*显示宽度*/
+				var counts=4;
+				
+				img[field:global.autoindex/]=new Image ();
+				img[field:global.autoindex/].src='[field:picname/]';
+				url[field:global.autoindex/]=new Image ();
+				url[field:global.autoindex/].src='[field:arcurl/]';
+				title[field:global.autoindex/]='[field:title/]';
+                 {/dede:arclist}
+				document.write('<style>');
+				document.write('.axx{float:left; padding:0px 4px 1px;*padding:0px 4px 1px;border:#fff 1px solid; margin-right:5px; margin-bottom:5px;}');
+				document.write('a.axx:link,a.axx:visited{text-decoration:none;color:#fff;line-height:12px;font:9px verdana;background-color:#aaa;}');
+				document.write('a.axx:active,a.axx:hover{text-decoration:none;color:#fff;line-height:12px;font:9px verdana;background-color:#ccc;}');
+				document.write('.bxx{float:left; padding:0px 4px 1px;*padding:0px 4px 1px;border:#fff 1px solid;margin-right:5px; margin-bottom:5px;}');
+				document.write('a.bxx:link,a.bxx:visited{text-decoration:none;color:#fff;line-height:12px;font:9px verdana;background-color:#f90;}');
+				document.write('a.bxx:active,a.bxx:hover{text-decoration:none;color:#fff;line-height:12px;font:9px verdana;background-color:#f90;}');
+				document.write('</style>');
+				document.write('<div style="width:'+widths+'px;height:'+heights+'px;z-index:999;overflow:hidden;text-overflow:clip;position:relative;">');
+				document.write('<div><a id="url" target="_blank"><img id="pic" style="border:0px;filter:progid:dximagetransform.microsoft.wipe(gradientsize=1.0,wipestyle=4, motion=forward)" width='+widths+' height='+heights+' /></a></div>');
+				document.write('<div style="position:absolute; right:0px; bottom:0px; *bottom:5px; z-index:100;">');
+				for(var i=1;i<counts+1;i++){
+					document.write('<a href="javascript:changeimg('+i+');" id="xxjdjj'+i+'" class="axx" target="_self">'+i+'</a>');
+				}
+				document.write('</div></div>');
+				change_img();
+				</SCRIPT></div>
+
+				
+		   <div id="andyscroll">
+			 <div id="scrollmessage">
+			  <ul class="hhbs" id="hhbs">
+		  		
+				{dede:arclist row=12 titlelen=60 typeid='10'}
+				<li><a href="[field:arcurl/]#content" title="[field:title/]">[field:title/]</a><span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></li>
+				{/dede:arclist}
+			 </ul>
+			<script language="JavaScript" type="text/javascript" src="/skin/js/gundong.js"></script>
+			</div>
+		  </div>
+        </div>
+      </div>
+    </div>
+    <div class="con2right">
+      <div class="contact_title"><h2>联系方式</h2></div>
+      <p>电话：86-029-32067889</p>
+      <p>Q　Q：3170733188</p>
+      <p>邮箱：sxqlbio@163.com</p>
+      <p>地址：陕西省西咸新区沣西新城</p>
+    </div>
+  </div>
+  <hr/>
+  <div class="con3">
+    <div class="ocn3title"><h2>热销产品展示</h2><a class="more" href="/cpzs#content" title="更多">+更多</a></div>
+    <div class="movead"> <a onmouseup="ISL_StopUp_1()" class="LeftBotton" onmousedown="ISL_GoUp_1()" onmouseout="ISL_StopUp_1()" href="javascript:void(0);" target="_self"></a>
+      <div class="pcont" id="ISL_Cont_1">
+        <div class="ScrCont">
+          <div id="List1_1"> {dede:arclist limit='0,25' titlelen=60 typeid='9' orderby='hot' orderway='desc'}
+            <p class="pl"> <a href="[field:arcurl/]#content" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" /></a> <a href="[field:arcurl/]#content" title="[field:title/]" class="basetitle">[field:title/]</a></p>
+            {/dede:arclist} </div>
+          <div id="List2_1"></div>
+        </div>
+      </div>
+      <a onmouseup="ISL_StopDown_1()" class="RightBotton" onmousedown="ISL_GoDown_1()" onmouseout="ISL_StopDown_1()" href="javascript:void(0);" target="_self"></a> </div>
+    <SCRIPT type=text/javascript>
+        <!--
+         picrun_ini()
+        //-->
+        </SCRIPT> 
+  </div>
+</div>
+
+
+  <div>{dede:include filename="footer.htm"/} </div>
+</body>
+</html>

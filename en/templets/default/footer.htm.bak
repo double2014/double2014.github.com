@@ -1,0 +1,28 @@
+<div class="footer">
+  <div class="linkbg">
+    <div class="link"> <strong><span>LINKs</span></strong> 
+	<a href="/en/index.html" target="_blank">Plant Extract</a>
+	<a href="/en/index.html" target="_blank">Natural Plant Extract</a>
+	<a href="/index.html" target="_blank">提取物</a>
+	<a href="/index.html" target="_blank">植物提取物</a>
+	<a href="/a/cpzs" target="_blank">植物提取物原料</a>
+	
+	</div>
+  </div>
+  <hr>
+  <div class="link web"><strong> <span>URLs</span></strong>
+	<a href="/en" title="{dede:global.cfg_webname/}"><span>|</span>Home</a><span>|</span>
+		  {dede:channel type='top' row='10' currentstyle="
+	<a href='/en~typelink~' ~rel~ class='hover'><span>~typename~</span></a></li>
+		  "}
+	<a href="/en[field:typeurl/]" title="[field:typename/]">[field:typename/]</a><span>|</span>
+		  {/dede:channel}
+  </div>
+   <div class="weixin">
+	<img src="/en/skin/images/weixin_qlsw988.png" />
+  </div>
+  <div class="clear"></div>
+  <p class="footicp"><span>{dede:global.cfg_powerby/}</span><!--<span><a href="http://www.qlsw988.com" target="_blank">ICP备案编号：{dede:global.cfg_beian/}</a></span>--></p>
+  <p class="foottel"><span>Tel：029-3201-8608</span>&nbsp;&nbsp;<span>QQ：463263454</span>&nbsp;&nbsp;<span>Email：Qinglan@163.com</span></p>
+  <p class="foottel"><span>Addr:Rm.601,No.2,shangshan jiayuan Building,Century Avenue,Fengxi New City,Xixian New Area,Xianyang,Shanxi,China</span></p>
+</div>

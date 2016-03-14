@@ -1,0 +1,63 @@
+<link rel="alternate" type="application/rss+xml" title="{dede:field.title/}" href="http://127.0.0.1/rss.php"/>
+<div class="top"> 
+	<div class="top_box1">
+	   <div class="top1">
+		<div class="fl">欢迎您浏览陕西清蓝生物科技有限公司官方营销网站！</div>
+		<!--封面栏目调用多语言-->
+		<div class="fr">
+			<div class="lang">
+				<a href="/en/index.html" target="_blank">English</a><span>|</span>
+				<a href="{dede:globel.cfg_basehost/}">中文</a><span>|</span>
+				<a href="">网站地图</a><span>|</span>
+				<a href="http://www.qlsw988.com/rss.php" target="_blank">RSS订阅</a><span>|</span> 
+				<a href="http://www.qlsw988.com" title="植物提取物 - 植物提取专家 - 植物提取供应商 - 陕西清蓝生物科技有限公司" rel="sidebar" onclick="javascript:window.external.AddFavorite('http://www.qlsw988.com', '植物提取专家 - s陕西清蓝生物科技有限公司');return false;">收藏本站</a>
+		  </div>
+		  </div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="top_box2">
+		<div class="top2">
+			<div class="logol"><a href="/" title="{dede:global.cfg_webname/}"><img src="/skin/images/logo.png" alt="{dede:global.cfg_webname/}" class="logo" /></a>
+			</div>
+			<div class="logor"></div>
+
+			<div class="tel">
+			  <div class="trb">
+				<p>咨询热线</p>
+				<p class="number">86-029-32067889</p>
+				<div class="clear"></div>
+			  </div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+<div class="clear" id="navspice"></div>
+  <div class="navbg">
+    <ul class="nav">
+      <li><a href="/" title="{dede:global.cfg_webname/}">首页</a></li>
+      {dede:channel type='top' row='8' currentstyle="
+      <li><a href='~typelink~' ~rel~ class='hover'><span>~typename~</span></a></li>
+      "}
+      <li><a href="[field:typeurl/]#content" title="[field:typename/]">[field:typename/]</a></li>
+	  {/dede:channel}
+    </ul>
+  </div>
+  <div class="marqueebg" id="content">
+	<div class="marquees">
+     <div class="marquee"><span>最新公告：</span><marquee behavior="alternate" onstart="this.firstChild.innerHTML+=this.firstChild.innerHTML;" scrollamount="5" scrolldelay="1" width="760" onmouseover="this.stop();" onmouseout="this.start();">本公司网站系统正式上线，欢迎大家访问！</marquee></div>
+      <div class="search">
+      <form  name="formsearch" action="/plus/search.php#content">
+        <input type="text" class="text" name="q" id="search-keyword" value="植物提取物" onblur="if(this.value ==''||this.value == '植物提取物'){this.value = '植物提取物';this.style.color = '#FCAD14';}" onfocus="if(this.value == '植物提取物'){this.value = '';this.style.color = '#000';}" />
+        <input name="input" title="搜索" type="image" src="/skin/images/button.jpg" value="" style="cursor:hand;" class="button"/>
+      </form>
+     </div>
+	</div>
+  </div>
+  <!--百度分享和qq客服-->
+  <div>
+  <script language="JavaScript" type="text/javascript" src="/skin/js/share.js"></script></div>
+  <div>
+  <script language="JavaScript" type="text/javascript" src="/skin/js/qqserver.js"></script></div>
+  <!--百度分享和qq客服-->
+</div>

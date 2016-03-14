@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+<title>车辆展示</title>
+<link>http://127.0.0.1/a/clzs/</link>
+<description>车辆展示</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 2016 清蓝 版权所有]]></generator>
+<webmaster>desdev@vip.qq.com</webmaster>
+<item>
+    <title><![CDATA[车辆展示六]]></title>
+    <link>http://127.0.0.1/a/clzs/11.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>2015-09-05</pubDate>
+    <category>车辆展示</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[车辆展示五]]></title>
+    <link>http://127.0.0.1/a/clzs/10.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>2015-09-05</pubDate>
+    <category>车辆展示</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[车辆展示四]]></title>
+    <link>http://127.0.0.1/a/clzs/9.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>2015-09-05</pubDate>
+    <category>车辆展示</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[车辆展示三]]></title>
+    <link>http://127.0.0.1/a/clzs/8.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>2015-09-05</pubDate>
+    <category>车辆展示</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[车辆展示二]]></title>
+    <link>http://127.0.0.1/a/clzs/7.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>2015-09-05</pubDate>
+    <category>车辆展示</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[车辆展示一]]></title>
+    <link>http://127.0.0.1/a/clzs/6.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>2015-09-05</pubDate>
+    <category>车辆展示</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>

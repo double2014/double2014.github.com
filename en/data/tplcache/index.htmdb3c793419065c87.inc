@@ -1,0 +1,44 @@
+<?php
+$z[0]=Array("global","",254,280);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",324,354);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",391,418);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("global","",1053,1079);
+$z[3][4]['name']="cfg_webname";
+$z[4]=Array("global","",1119,1145);
+$z[4][4]['name']="cfg_webname";
+$z[5]=Array("globel","",1291,1318);
+$z[5][4]['name']="cfg_basehost";
+$z[6]=Array("global","",1706,1732);
+$z[6][4]['name']="cfg_webname";
+$z[7]=Array("channel","\r\n      <li><a href=\"[field:typeurl/]#content\" title=\"[field:typename/]\">[field:typename/]</a></li>\r\n	  ",1777,2025);
+$z[7][4]['type']="top";
+$z[7][4]['row']="10";
+$z[7][4]['currentstyle']="<li><a href='~typelink~' ~rel~><span>~typename~</span></a></li>";
+$z[8]=Array("channel","\r\n        <li><a href=\"[field:typeurl/]#content\" title=\"[field:typename/]\">[field:typename/]</a></li>\r\n        ",3793,4077);
+$z[8][4]['type']="son";
+$z[8][4]['row']="10";
+$z[8][4]['typeid']="2";
+$z[8][4]['currentstyle']="<li class='hover'><a href='~typelink~' ~rel~><span>~typename~</span></a></li>";
+$z[9]=Array("arclist","\r\n        <li> <a href=\"[field:arcurl/]#content\" title=\"[field:title/]\"><img src=\"[field:picname/]\" alt=\"[field:title/]\" /></a>\r\n          <p><a href=\"[field:arcurl/]#content\" title=\"[field:title/]\">[field:title/]</a></p>\r\n        </li>\r\n        ",4265,4569);
+$z[9][4]['row']="3";
+$z[9][4]['titlelen']="32";
+$z[9][4]['typeid']="2";
+$z[10]=Array("arclist","             \r\n				var widths=183;    /*显示高度*/\r\n				var heights=131;   /*显示宽度*/\r\n				var counts=4;\r\n				\r\n				img[field:global.autoindex/]=new Image ();\r\n				img[field:global.autoindex/].src='[field:picname/]';\r\n				url[field:global.autoindex/]=new Image ();\r\n				url[field:global.autoindex/].src='[field:arcurl/]';\r\n				title[field:global.autoindex/]='[field:title/]';\r\n                 ",5040,5503);
+$z[10][4]['row']="5";
+$z[10][4]['titlelen']="60";
+$z[10][4]['typeid']="10";
+$z[11]=Array("arclist","\r\n            <li><a href=\"[field:arcurl/]#content\" title=\"[field:title/]\">[field:title/]</a><span>[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</span></li>\r\n            ",8079,8310);
+$z[11][4]['row']="5";
+$z[11][4]['titlelen']="60";
+$z[11][4]['typeid']="10";
+$z[12]=Array("arclist","\r\n            <p class=\"pl\"> <a href=\"[field:arcurl/]#content\" title=\"[field:title/]\"><img src=\"[field:picname/]\" alt=\"[field:title/]\" /></a> <a href=\"[field:arcurl/]#content\" title=\"[field:title/]\" class=\"basetitle\">[field:title/]</a> </p>\r\n            ",9113,9425);
+$z[12][4]['row']="5";
+$z[12][4]['titlelen']="60";
+$z[12][4]['typeid']="9";
+$z[13]=Array("include","",9805,9842);
+$z[13][4]['filename']="footer.htm";
+
+?>

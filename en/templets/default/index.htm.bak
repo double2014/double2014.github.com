@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="author" content="design by www.dedesos.com" />
+<LINK href="/en/skin/css/master.css" rel=stylesheet>
+<script language="JavaScript" type="text/javascript" src="/en/skin/js/jquery.js"></script>
+<script language="JavaScript" type="text/javascript" src="/en/skin/js/search.js"></script>
+<script language="JavaScript" type="text/javascript" src="/en/skin/js/movead.js"></script>
+<script language="JavaScript" type="text/javascript" src="/en/skin/js/ghhs.js"></script>
+<script language="JavaScript" type="text/javascript" src="/en/skin/js/showbanner.js"></script>
+<!--[if IE 6.0]>
+<script type="text/javascript" src="/skin/js/iepngfix_tilebg.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="top"> <a href="/en" title="/{dede:global.cfg_webname/}"><img src="/en/skin/images/logo.png" alt="{dede:global.cfg_webname/}" class="logo" /></a>
+	<!--封面栏目调用多语言-->
+	<div class="lang">
+		<a href="/en/index.html">English</a><span>|</span>
+		<a href="../index.html" target="_blank">Chinese</a><span>|</span>
+		<a href="#">SiteMap</a><span>|</span>
+		<a href="#">RSS</a> 
+	</div>
+  <div class="tel">
+    <p>Hotline</p>
+    <p class="number">029-3201-8608</p>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <div class="navbg">
+    <ul class="nav">
+      <li><a href="/en" title="/{dede:global.cfg_webname/}" class="hover">Home</a></li>
+      {dede:channel type='top' row='10' currentstyle="
+      <li><a href='/en~typelink~#content' ~rel~><span>~typename~</span></a></li>
+      "}
+      <li><a href="/en[field:typeurl/]#content" title="[field:typename/]">[field:typename/]</a></li>
+	{/dede:channel}
+    </ul>
+	<!--<div>
+	<ul id="navigation">
+
+	  {dede:cattree typeid='2' catid='2' showall='yes'/}
+
+	</ul>
+	</div>-->
+  </div>
+
+  <div class="marqueebg">
+    <div class="marquee"><span>Latest announcement：</span>The company website officially launched, welcome to visit!</div>
+    <div class="search">
+      <form  name="formsearch" action="/en/plus/search.php#content">
+        <input type="text" class="text" name="q" id="search-keyword" value="plant extracts" onblur="if(this.value ==''||this.value == 'plant extracts'){this.value = 'plant extracts';this.style.color = '#FCAD14';}" onfocus="if(this.value == 'plant extracts'){this.value = '';this.style.color = '#000';}" />
+        <input name="input" title="search" type="image" src="/skin/images/button.jpg" value="" style="cursor:hand;" class="button"/>
+      </form>
+    </div>
+  </div>
+  <!--百度分享和qq客服-->
+  <div>
+  <script language="JavaScript" type="text/javascript" src="/en/skin/js/share.js"></script></div>
+  <div>
+  <script language="JavaScript" type="text/javascript" src="/en/skin/js/qqserver.js"></script></div>
+  <!--百度分享和qq客服-->
+</div>
+<script language="JavaScript" type="text/javascript" src="/en/skin/js/banner.js"></script>
+<LINK href="/en/skin/css/banner.css" rel="stylesheet">
+<div class="banner">
+  <div class="banner-btn"> <a href="javascript:;" class="prevBtn"><i></i></a> <a href="javascript:;" class="nextBtn"><i></i></a> </div>
+  <ul class="banner-img">
+    <li><a href="#"><img src="/en/skin/images/topbg.jpg"></a></li>
+    <li><a href="#"><img src="/en/skin/images/topbg.jpg"></a></li>
+    <li><a href="#"><img src="/en/skin/images/topbg.jpg"></a></li>
+  </ul>
+  <ul class="banner-circle">
+  </ul>
+</div>
+<div class="topbg">
+  <div class="con1">
+    <div class="con1left">
+      <p class="con1title">Product information</p>
+      <ul class="con1ul">
+        {dede:channel type='son' row='10' typeid='2' currentstyle="
+        <li class='hover'><a href='/en~typelink~#content' ~rel~><span>~typename~</span></a></li>
+        "}
+        <li><a href="/en[field:typeurl/]#content" title="[field:typename/]">[field:typename/]</a></li>
+        {/dede:channel}
+      </ul>
+      <p class="lookmore"><a href="/en/a/productinfo#content" title="See More">See More</a></p>
+    </div>
+    <div class="con1right">
+      <ul class="proul">
+        {dede:arclist row=3 titlelen=32 typeid='2'}
+        <li> <a href="/en[field:arcurl/]#content" title="[field:title/]"><img src="/en[field:picname/]" alt="[field:title/]" /></a>
+          <p><a href="/en[field:arcurl/]#content" title="[field:title/]">[field:title/]</a></p>
+        </li>
+        {/dede:arclist}
+      </ul>
+      <a href="/en/a/service/#content" title="more"><img src="/en/skin/images/product_more.png" class="product_more" /></a> </div>
+  </div>
+  <div class="con2">
+    <div class="con2left">
+      <p class="news_title">News<a href="/en/a/xwzx#content" title="more"><img src="/en/skin/images/news_more.jpg" /></a></p>
+      <div class="con2border1">
+        <div class="con2border2">
+          <div class="adimg"> 
+            <SCRIPT>   
+			   {dede:arclist row=5 titlelen=60 typeid='10'}             
+				var widths=183;    /*显示高度*/
+				var heights=131;   /*显示宽度*/
+				var counts=4;
+				
+				img[field:global.autoindex/]=new Image ();
+				img[field:global.autoindex/].src='[field:picname/]';
+				url[field:global.autoindex/]=new Image ();
+				url[field:global.autoindex/].src='[field:arcurl/]';
+				title[field:global.autoindex/]='[field:title/]';
+                 {/dede:arclist}
+				document.write('<style>');
+				document.write('.axx{float:left; padding:0px 4px 1px;*padding:0px 4px 1px;border:#fff 1px solid; margin-right:5px; margin-bottom:5px;}');
+				document.write('a.axx:link,a.axx:visited{text-decoration:none;color:#fff;line-height:12px;font:9px verdana;background-color:#aaa;}');
+				document.write('a.axx:active,a.axx:hover{text-decoration:none;color:#fff;line-height:12px;font:9px verdana;background-color:#ccc;}');
+				document.write('.bxx{float:left; padding:0px 4px 1px;*padding:0px 4px 1px;border:#fff 1px solid;margin-right:5px; margin-bottom:5px;}');
+				document.write('a.bxx:link,a.bxx:visited{text-decoration:none;color:#fff;line-height:12px;font:9px verdana;background-color:#f90;}');
+				document.write('a.bxx:active,a.bxx:hover{text-decoration:none;color:#fff;line-height:12px;font:9px verdana;background-color:#f90;}');
+				document.write('</style>');
+				document.write('<div style="width:'+widths+'px;height:'+heights+'px;z-index:999;overflow:hidden;text-overflow:clip;position:relative;">');
+				document.write('<div><a id="url" target="_blank"><img id="pic" style="border:0px;filter:progid:dximagetransform.microsoft.wipe(gradientsize=1.0,wipestyle=4, motion=forward)" width='+widths+' height='+heights+' /></a></div>');
+				document.write('<div style="position:absolute; right:0px; bottom:0px; *bottom:5px; z-index:100;">');
+				for(var i=1;i<counts+1;i++){
+					document.write('<a href="javascript:changeimg('+i+');" id="xxjdjj'+i+'" class="axx" target="_self">'+i+'</a>');
+				}
+				document.write('</div></div>');
+				change_img();
+				</SCRIPT></div>
+          <ul class="hhbs" id="hhbs">
+            {dede:arclist row=5 titlelen=60 typeid='10'}
+            <li><a href="/en[field:arcurl/]#content" title="[field:title/]">[field:title/]</a><span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></li>
+            {/dede:arclist}
+          </ul>
+        </div>
+      </div>
+    </div>
+   <div class="con2right">
+    <div class="contact_title">Contact Us</div>
+      <p>Tel：029-3201-8608</p>
+      <p>Q　Q：463263454</p>
+	  <p>Email：qinglan029@163.com</p>
+      <p>Addr：Xixian New Area Fengxi New City Century Avenue (xianyang) shangshan jiayuan No.2 20601</p>
+    </div>
+  </div>
+  <div class="con3">
+    <div class="ocn3title">Products<a href="/en/a/cpzs#content" title="more"><img src="/en/skin/images/news_more.jpg" /></a></div>
+    <div class="movead"> <a onmouseup="ISL_StopUp_1()" class="LeftBotton" onmousedown="ISL_GoUp_1()" onmouseout="ISL_StopUp_1()" href="javascript:void(0);" target="_self"></a>
+      <div class="pcont" id="ISL_Cont_1">
+        <div class="ScrCont">
+          <div id="List1_1"> {dede:arclist row=5 titlelen=60 typeid='9'}
+            <p class="pl"> <a href="/en[field:arcurl/]#content" title="[field:title/]"><img src="/en[field:picname/]" alt="[field:title/]" /></a> <a href="/en[field:arcurl/]#content" title="[field:title/]" class="basetitle">[field:title/]</a> </p>
+            {/dede:arclist} </div>
+          <div id="List2_1"></div>
+        </div>
+      </div>
+      <a onmouseup="ISL_StopDown_1()" class="RightBotton" onmousedown="ISL_GoDown_1()" onmouseout="ISL_StopDown_1()" href="javascript:void(0);" target="_self"></a> </div>
+    <SCRIPT type=text/javascript>
+        <!--
+         picrun_ini()
+        //-->
+        </SCRIPT> 
+  </div>
+ </div>
+  <div>{dede:include filename="footer.htm"/} </div>
+</body>
+</html>

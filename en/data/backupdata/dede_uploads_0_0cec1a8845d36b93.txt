@@ -1,0 +1,18 @@
+INSERT INTO `dede_uploads` VALUES('1','0','1-150Z51532280-L.jpg','/uploads/allimg/150905/1-150Z51532280-L.jpg','1','0','0','0','63492','1441438348','1');
+INSERT INTO `dede_uploads` VALUES('2','1','风向转变 搬家公司寻找新活法','/uploads/allimg/150905/1-150Z5153310937.jpg','1','550','349','0','150442','1441438390','1');
+INSERT INTO `dede_uploads` VALUES('3','2','南京地税“搬家”到网上','/uploads/allimg/150905/1-150Z51533400-L.jpg','1','0','0','0','63492','1441438420','1');
+INSERT INTO `dede_uploads` VALUES('4','3','搬家的注意事项','/uploads/allimg/150905/1-150Z51534100-L.jpg','1','0','0','0','100256','1441438450','1');
+INSERT INTO `dede_uploads` VALUES('5','4','搬家时应该避免大张旗鼓搬家的繁琐','/uploads/allimg/150905/1-150Z51534250-L.jpg','1','0','0','0','31768','1441438465','1');
+INSERT INTO `dede_uploads` VALUES('6','5','个人搬家服务','/uploads/allimg/150905/1-150Z5161IJE.jpg','1','600','430','0','60257','1441441057','1');
+INSERT INTO `dede_uploads` VALUES('7','6','车辆展示一','/uploads/allimg/150905/1-150Z516293c40.jpg','1','600','430','0','58520','1441441779','1');
+INSERT INTO `dede_uploads` VALUES('8','7','车辆展示二','/uploads/allimg/150905/1-150Z5163000263.jpg','1','600','430','0','90262','1441441800','1');
+INSERT INTO `dede_uploads` VALUES('9','8','车辆展示三','/uploads/allimg/150905/1-150Z516301W58.jpg','1','600','430','0','90116','1441441818','1');
+INSERT INTO `dede_uploads` VALUES('10','9','车辆展示四','/uploads/allimg/150905/1-150Z516303AN.jpg','1','600','430','0','73947','1441441836','1');
+INSERT INTO `dede_uploads` VALUES('11','10','车辆展示五','/uploads/allimg/150905/1-150Z5163052933.jpg','1','600','430','0','64098','1441441852','1');
+INSERT INTO `dede_uploads` VALUES('12','11','车辆展示六','/uploads/allimg/150905/1-150Z51631061X.jpg','1','600','430','0','90116','1441441866','1');
+INSERT INTO `dede_uploads` VALUES('13','17','埃及富豪称要在欧洲买岛 安置几十万名难民','/uploads/allimg/150905/1-150Z5164020931.jpg','1','600','373','0','33617','1441442420','1');
+INSERT INTO `dede_uploads` VALUES('14','20','公司搬家服务','/uploads/allimg/150905/1-150Z51643015P.jpg','1','600','430','0','94409','1441442581','1');
+INSERT INTO `dede_uploads` VALUES('15','21','长途搬家服务','/uploads/allimg/150905/1-150Z5164329216.jpg','1','600','430','0','59615','1441442609','1');
+INSERT INTO `dede_uploads` VALUES('16','22','家具家电搬家服务','/uploads/allimg/150905/1-150Z5164400316.jpg','1','600','430','0','52490','1441442640','1');
+INSERT INTO `dede_uploads` VALUES('17','23','空调移机搬家服务','/uploads/allimg/150905/1-150Z5164425151.jpg','1','600','430','0','93159','1441442665','1');
+INSERT INTO `dede_uploads` VALUES('18','24','保洁家政服务','/uploads/allimg/150905/1-150Z51644504A.jpg','1','600','430','0','76152','1441442690','1');

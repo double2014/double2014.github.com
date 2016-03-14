@@ -1,0 +1,2 @@
+<a href="[field:arcurl/]#content" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" /></a>
+        <span><a href="[field:arcurl/]#content" title="[field:title/]">[field:title/]</a></span>

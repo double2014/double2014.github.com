@@ -1,0 +1,6 @@
+INSERT INTO `dede_search_keywords` VALUES('1','网络','网络','2','0','1441443099','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','富豪','富豪','2','1','1441443186','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','plant extracts','plant extracts extracts plant','1','0','1456813882','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','个人','个人','7','0','1457864065','0','0');
+INSERT INTO `dede_search_keywords` VALUES('5','植物提取物','植物提取物 提取物 植物','43','0','1457877807','0','0');
+INSERT INTO `dede_search_keywords` VALUES('6','白芍提取物','白芍提取物 提取物 白芍','8','1','1457868881','0','0');

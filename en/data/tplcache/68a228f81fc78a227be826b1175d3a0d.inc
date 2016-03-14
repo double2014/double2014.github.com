@@ -1,0 +1,1 @@
+<p class="pl"> <a href="/en[field:arcurl/]#content" title="[field:title/]"><img src="/en[field:picname/]" alt="[field:title/]" /></a> <a href="/en[field:arcurl/]#content" title="[field:title/]" class="basetitle">[field:title/]</a> </p>
