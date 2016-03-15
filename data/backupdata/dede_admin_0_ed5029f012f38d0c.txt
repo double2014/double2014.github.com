@@ -1,0 +1,2 @@
+INSERT INTO `dede_admin` VALUES('1','10','admin','f297a57a5a743894a0e4','dedesos.com','dedesos.com','dedesos.com','','1457781011','127.0.0.1');
+INSERT INTO `dede_admin` VALUES('2','1','double','da078a86726031ad64f3','double','','1283268128@qq.com','','0','');

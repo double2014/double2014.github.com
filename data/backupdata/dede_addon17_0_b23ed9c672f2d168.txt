@@ -1,0 +1,1 @@
+INSERT INTO `dede_addon17` VALUES('31','7','','','127.0.0.1','10','工作职责：<br />\r\n1、维护及服务使用织梦的客户群&hellip;&hellip;<br />\r\n职位要求：<br />\r\n1、本科及以上学历；<br />\r\n2、普通话标准，发音、吐字清晰&hellip;&hellip;');

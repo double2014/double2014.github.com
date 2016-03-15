@@ -143,7 +143,7 @@ body {
 .topbg {
     width: 1002px;
     margin: 0 auto;
-    border: 1px solid #006E30;
+    border: 1px solid #6BB210;
     background: #fff;
     margin-top: 10px;
 }
@@ -268,12 +268,13 @@ body {
 .cont_l dl dd a:hover{
 	color:#6BB210;
 }
-.cont_r{
-	width:768px;
-	height:888px;
-	background-color:#fff;
-	float:right;
-	margin-top:8px;
+.cont_r {
+    width: 768px;
+    height: 888px;
+    background-color: #fff;
+    float: right;
+    margin-top: 8px;
+    border: 1px solid #6BB210;
 }
 .ss{
 	width:768px;
@@ -677,7 +678,7 @@ body {
 .con2border1 {
     width: 719px;
     height: auto;
-    border-right: 1px solid #006E30;
+    border-right: 1px solid #6BB210;
     background: #fff;
 }
 .con2border2 {
@@ -803,13 +804,13 @@ body {
 	_behavior: url(js/iepngfix.htc);
 }
 .movead .pl img {
-	DISPLAY: block;
-	CURSOR: pointer;
-	width:196px;
-	height:140px;
-	background:#b3cdf7;
-	padding:5px;
-	float:left;
+    DISPLAY: block;
+    CURSOR: pointer;
+    width: 196px;
+    height: 140px;
+    background: #6BB210;
+    padding: 5px;
+    float: left;
 }
 .movead .pl {
 	float:left;
@@ -820,15 +821,15 @@ body {
 	background:url(../images/imgshadow.jpg) no-repeat 0 0;
 }
 .basetitle {
-	width:206px;
-	height:29px;
-	background:url(../images/icons2.jpg) 9px center no-repeat #b3cdf7;
-	display:block;
-	float:left;
-	margin:3px 0 0 0;
-	line-height:29px;
-	text-indent:23px;
-	color:#000;
+    width: 206px;
+    height: 29px;
+    background: url(../images/icons2.jpg) 9px center no-repeat #6BB210;
+    display: block;
+    float: left;
+    margin: 3px 0 0 0;
+    line-height: 29px;
+    text-indent: 23px;
+    color: #000;
 }
 .movead a:hover {
 	color:#FF2902;
@@ -837,12 +838,11 @@ body {
 }
 /* footer */
 .footer {
-	background:#E5F2FB;
-	border:8px solid #fff;
-	border-radius:10px;
-	width:1002px;
-	height:270px;
-	margin: 3px auto;
+    background: #E5F2FB;
+    border: 1px solid #6BB210;
+    width: 1002px;
+    height: 270px;
+    margin: 3px auto;
 }
 .linkbg {
     background: #6BB210;
@@ -1007,6 +1007,8 @@ body {
 	margin:0 5px;
 }
 .about {
+    border: 1px solid #6BB210;
+    border-radius: 5px;
 }
 .about p {
 	line-height:30px;
@@ -1055,21 +1057,21 @@ body {
 	_margin-left:17px;
 }
 .sub_proul li img {
-	width:189px;
-	height:135px;
-	padding:4px;
-	background:#b3cdf7;
-	border:1px solid #e2ecfc;
-	float:left;
+    width: 189px;
+    height: 135px;
+    padding: 4px;
+    background: #6BB210;
+    border: 1px solid #e2ecfc;
+    float: left;
 }
 .sub_proul li p {
-	width:100%;
-	height:29px;
-	background:url(../images/icons2.jpg) 13px center no-repeat #b3cdf7;
-	float:left;
-	margin:1px 0 0 0;
-	text-indent:27px;
-	line-height:29px;
+    width: 100%;
+    height: 29px;
+    background: url(../images/icons2.jpg) 13px center no-repeat #6BB210;
+    float: left;
+    margin: 1px 0 0 0;
+    text-indent: 27px;
+    line-height: 29px;
 }
 .sub_proul li p a {
 	color:#000;

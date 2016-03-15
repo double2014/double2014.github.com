@@ -1,6 +1,11 @@
+  <!--百度分享和qq客服-->
+  <script language="JavaScript" type="text/javascript" src="/skin/js/share.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/skin/js/qqserver.js"></script>
+  <!--百度分享和qq客服-->
+
 <script language="JavaScript" type="text/javascript" src="/skin/js/scrolltop.js"></script>
 <div id="topcontrol" title="返回顶部" style="display:none;">
-<img src="http://www.paidai.com/images/new/top.jpg" title="返回顶部" alt="返回顶部" />
+<img src="/skin/images/top.jpg" title="返回顶部" alt="返回顶部" />
 </div>
 <SCRIPT type=text/javascript>goTopEx();</SCRIPT>
 <div class="footer">
