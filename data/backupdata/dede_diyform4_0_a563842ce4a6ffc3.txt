@@ -1,3 +1,0 @@
-INSERT INTO `dede_diyform4` VALUES('1','1','/uploads/userup/0/145NV3Y-9628.png');
-INSERT INTO `dede_diyform4` VALUES('2','1','/uploads/userup/0/145NV496-1Q9.png');
-INSERT INTO `dede_diyform4` VALUES('3','1','');

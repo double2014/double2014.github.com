@@ -176,21 +176,28 @@ body {
 	overflow:hidden;
 	text-overflow:ellipsis;
 }
-.zizhi{
-	width:1002px;
-	height:888px;
-	border:8px solid #fff;
-	border-radius:10px;
-	margin:0 auto;
-	background-color:#fff;
-	letter-spacing:1px;
-	word-spacing:8px;
+.zizhi {
+    width: 1002px;
+    height: 888px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 8px;
 }
 .zizhi h2 {
-    color: #fff;
+    color: #000;
     text-indent: 10px;
     background-color: #6BB210;
     padding: 10px;
+}
+.invite h2 {
+    color: #000;
+    text-indent: 10px;
+    background-color: #6BB210;
+    padding: 10px;
+    margin-left: -3px;
 }
 .zizhi .more {
     float: right;
@@ -287,7 +294,7 @@ body {
 	font:500 12px/14px 微软雅黑;
 	color:#000;
 }
-.tel p.number {
+.tel p .number {
 	font:500 16px/16px Arial;
 }
 #navspice{
@@ -335,11 +342,11 @@ body {
 
 
 .marqueebg {
-    width: 100%;
+    width: 1002px;
     background: #6BB210;
     height: 35px;
-    margin: 455px 0 0 0;
     _behavior: url(js/iepngfix.htc);
+    margin: 455px auto;
 }
 .marquees{
 	width:1002px;
@@ -450,7 +457,7 @@ body {
 }
 
 .banr {
-    width: 1366px;
+    width: 1002px;
     height: 480px;
     position: absolute;
     margin: 0 auto;
@@ -459,16 +466,125 @@ body {
 	z-index:-99;
 }
 .banner_l {
-    width: 1366px;
+    width: 1002px;
     height: 480px;
     float: left;
     position: absolute;
-    top: -680px;
+    top: 0;
     left: 0;
 }
-.banner_l img{
-    width: 1366px;
+
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.clearfix {
+	zoom:1;
+}
+/*banner css*/
+.banner {
+    float: left;
+    width: 1002px;
     height: 480px;
+    position: absolute;
+    margin-left: -501px;
+    left: 50%;
+    overflow: hidden;
+    top: -489px;
+    z-index: 100;
+    background: url(../images/loadinglit.gif) center center no-repeat;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+.banner-btn {
+	display:"";
+}
+.banner-btn a {
+	display:block;
+	line-height:40px;
+	position:absolute;
+	top:150px;
+	width:40px;
+	height:40px;
+	background-color: #000;
+	opacity:0.3;
+filter:alpha(opacity=30) color: rgb(255, 255, 255);
+	overflow: hidden;
+	z-index:4;
+}
+.prevBtn {
+	left:5px;
+}
+.nextBtn {
+	right:5px;
+}
+.banner-img {
+	font-size:0;
+*word-spacing:-1px;/* IE6、7 */
+	letter-spacing: -3px;
+	position:relative;
+}
+.banner-img li {
+	display:inline-block;
+*display:inline;
+*zoom:1;/* IE6、7 */
+	vertical-align: top;
+	letter-spacing: normal;
+	word-spacing: normal;
+	font-size:12px;
+}
+.banner i {
+	background:url(../images/t1sznbfzlmxxx8qsdi-400-340.png) no-repeat;
+	width: 15px;
+	height: 23px;
+	cursor:pointer;
+	margin: 8px 0 0 12px;
+	display:block;
+}
+.banner .nextBtn i {
+	background-position:-200px -24px;
+}
+.banner .prevBtn i {
+	background-position:-200px 0px;
+}
+.banner-circle {
+	position:absolute;
+	left:50%;
+	bottom: 15px;
+	height: 13px;
+	text-align: center;
+	font-size: 0;
+	border-radius: 10px;
+	background:rgba(255,255,255,0.3);
+filter:alpha(opacity:30);
+}
+.banner-circle li {
+	border-radius: 10px;
+	margin:2px;
+	display: inline-block;
+	display: -moz-inline-stack;
+	vertical-align: middle;
+	zoom: 1;
+}
+.banner-circle li a {
+	display: block;
+	padding-top: 9px;
+	width: 9px;
+	height: 0;
+	border-radius: 50%;
+	background: #B7B7B7;
+	overflow: hidden;
+}
+.banner-circle .selected a {
+	background:#F40;
+}
+/*banner css*/
+
+.banner_l img{
+    width: 1002px;
+    height: 480px;
+	z-index:101;
 }
 .banner_r {
     width: 360px;
@@ -656,10 +772,10 @@ body {
 .news_title {
     width: 1002px;
     height: 45px;
-	line-height:45px;
-    color: #fff;
+    line-height: 45px;
+    color: #000;
     text-indent: 32px;
-	background-color:#6BB210;
+    background-color: #6BB210;
 }
 .news_title a {
 	color:#fff;
@@ -734,10 +850,10 @@ body {
 	height:244px;
 	float:left;
 }
-.contact_title h2{
-    color: #fff;
-	height:45px;
-	line-height:45px;
+.contact_title h2 {
+    color: #000;
+    height: 45px;
+    line-height: 45px;
     text-indent: 60px;
 }
 .con2right p, .leftborder2 p {
@@ -756,7 +872,7 @@ body {
     height: 45px;
 	background-color:#6BB210;
 	line-height:45px;
-    color: #fff;
+    color: #000;
     text-indent: 32px;
     _behavior: url(js/iepngfix.htc);
 }
@@ -1545,4 +1661,66 @@ body {
 	width:53px; 
 	height:49px;
 
+}
+@media only screen and (min-width: 1024px){
+
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px){
+.qq_list {
+    position: absolute;
+    float: right;
+    width: 160px;
+    height: 40px;
+    right: -258px;
+    top: 38px;
+}
+.qq_listf {
+    position: absolute;
+    float: right;
+    width: 200px;
+    height: 50px;
+    right: -218px;
+}
+#topcontrol {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: 260px;
+    opacity: 1;
+    cursor: pointer;
+}
+}
+
+@media screen and (max-width:479px){
+.qq_list {
+    position: absolute;
+    float: right;
+    width: 160px;
+    height: 40px;
+    right: -660px;
+    top: 38px;
+}
+.qq_listf {
+    position: absolute;
+    float: right;
+    width: 200px;
+    height: 50px;
+    right: -640px;
+}
+#topcontrol {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: 640px;
+    opacity: 1;
+    cursor: pointer;
+}
+.box_lanrenzhijia {
+    z-index: 99;
+    right: 0;
+    width: 128px;
+    height: 195px;
+    position: absolute;
+    margin-right: -690px;
+}
 }

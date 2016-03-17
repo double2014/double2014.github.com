@@ -2,12 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=.0;"/>
 <title>{dede:global.cfg_webname/}</title>
 <meta name="description" content="{dede:global.cfg_description/}" />
 <meta name="keywords" content="{dede:global.cfg_keywords/}" />
-<meta name="author" content="design by www.dedesos.com" />
-<LINK href="/skin/css/master.css" rel=stylesheet>
+<meta name="author" content="design by wwwqlsw988.com" />
 <LINK href="/skin/css/banner.css" rel="stylesheet">
+<LINK href="/skin/css/master.css" rel=stylesheet>
+
 <link rel="alternate" type="application/rss+xml" title="{dede:field.title/}" href="http://qlsw988.com/rss.php"/>
 <script language="JavaScript" type="text/javascript" src="/skin/js/jquery.js"></script>
 <script language="JavaScript" type="text/javascript" src="/skin/js/search.js"></script>
@@ -290,12 +292,21 @@
         </div>
       </div>
     </div>
+
+
     <div class="con2right">
       <div class="contact_title"><h2>联系方式</h2></div>
-      <p>电话：86-029-32067889</p>
+	  <div>
+		{dede:sql sql='Select content from dede_arctype where id=14'} 
+
+		[field:content function='cn_substr(@me,988)'/] 
+
+		{/dede:sql}
+	  </div>
+      <!--<p>电话：86-029-32067889</p>
       <p>Q　Q：3170733188</p>
       <p>邮箱：sxqlbio@163.com</p>
-      <p>地址：陕西省西咸新区沣西新城</p>
+      <p>地址：陕西省西咸新区沣西新城</p>-->
     </div>
   </div>
   <hr/>

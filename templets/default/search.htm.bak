@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=yes;"/>
 <title>搜索页_{dede:global.cfg_webname/}</title>
 <meta name="keywords" content="{dede:field name='keywords'/}" />
 <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
@@ -34,13 +35,13 @@
 </div>
   <div class="subpages">
     <div class="left">
-	  <div class="cont_l">
+	 <div class="cont_l">
 	<div class="sidetop">
 	<a href="/product">生产中心</a>
 	<p></p>
 	</div>
-        <dl>
-          {dede:channel typeid='2'}
+	   <dl>
+         {dede:channelArtlist typeid='2'}
 			<dt>
 				{dede:type}
 				 <h3><a href="[field:typelink /]">[field:typename /]</a></h3>
@@ -52,9 +53,10 @@
 			 <a href='[field:typelink /]'>[field:typename/]</a><br>
 			{/dede:channel}
 			</dd>
-         {/dede:channel}
-        </dl>
-      </div>
+         {/dede:channelArtlist}
+	   </dl>
+	</div>
+      
     </div>
     <div class="right">
       <div class="righttitle"> <span class="title"></span>

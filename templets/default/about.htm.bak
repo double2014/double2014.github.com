@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=yes;"/>
 <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
 <meta name="keywords" content="{dede:field name='keywords'/}" />
 <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
@@ -55,18 +56,7 @@
          {/dede:channelArtlist}
 	   </dl>
 	</div>
-      <div class="leftcontact">
-        <div class="lefttitle">联系方式</div>
-        <div class="leftborder">
-          <div class="leftborder2">
-            <p>电话：86-029-32067889</p>
-            <p>Q　Q：3170733188</p>
-            <p>邮编：712200</p>
-            <p>邮箱：sxqlbio@163.com</p>
-            <p>地址：陕西省西咸新区沣西新城</p>
-          </div>
-        </div>
-      </div>
+      
     </div>
     <div class="right">
       <div class="righttitle"> <span class="title">{dede:field name='typeid' function="GetTopTypename(@me) /}</span>
