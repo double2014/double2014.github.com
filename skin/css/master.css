@@ -101,28 +101,30 @@ body {
 
 }
 
-.top2 .logor{
-	float:left;
-	width:350px;
-	height:80px;
-	background-color:#fff;
-	background:url(../images/weixin_logo.png) right center no-repeat;
-	_behavior: url(js/iepngfix.htc);
-	text-align:center;
-	margin-left:300px;
+.top2 .logor {
+    float: left;
+    width: 350px;
+    height: 80px;
+    background-color: #fff;
+    background: url(../images/weixin_logo.png) right center no-repeat;
+    _behavior: url(js/iepngfix.htc);
+    text-align: center;
+    margin-left: 212px;
 }
 
 
-.top2 .tel{
-	float:right;
-	width:160px;
-	height:30px;
-	background:url(../images/tel.png) right center no-repeat;
-	_behavior: url(js/iepngfix.htc);
-	_margin-right:32px;
-	margin:42px 0 0 0 ;
+.top2 .tel {
+    float: right;
+    width: 160px;
+    height: 50px;
+    background: url(../images/tel.png) right center no-repeat;
+    _behavior: url(js/iepngfix.htc);
+    _margin-right: 32px;
+    margin: 42px 0 0 0;
 }
-
+.tel .trb {
+    margin-left: -50px;
+}
 
 .lang{
 	color:#000;
@@ -288,11 +290,13 @@ body {
 	height:888px;
 }
 .tel p {
-	text-align:right;
-	padding-right:34px;
-	line-height:15px;
-	font:500 12px/14px 微软雅黑;
-	color:#000;
+    text-align: right;
+    padding-right: 50px;
+    line-height: 25px;
+    font: 500 18px/14px 微软雅黑;
+    color: #000;
+    height: 25px;
+    line-height: 25px;
 }
 .tel p .number {
 	font:500 16px/16px Arial;
@@ -861,6 +865,12 @@ filter:alpha(opacity:30);
 	text-indent:22px;
 	line-height:34px;
 	color:#000;
+}
+.con2right .contact{
+	margin:0 auto;
+}
+.con2right .vertical_contact *{
+	vertical-align:middle;
 }
 /* con3 */
 .con3 {
