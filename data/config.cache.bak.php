@@ -1,11 +1,11 @@
 <?php
 $cfg_basehost = 'http://127.0.0.1';
 $cfg_cmspath = '';
-$cfg_cookie_encode = 'r8Lt3ult91Up9KRVa1ItgdgkwPewFFSH';
+$cfg_cookie_encode = 'VwhtfmabtUVfnDtt6qQX52oxxhtmgfUT';
 $cfg_indexurl = '/';
 $cfg_backup_dir = 'backupdata';
 $cfg_indexname = '主页';
-$cfg_webname = '清蓝生物--植物提取专家--陕西清蓝生物科技有限公司';
+$cfg_webname = '植物提取 - 植物提取专家 - 纯天然植物提取陕西清蓝生物科技有限公司供应商';
 $cfg_adminemail = 'sxqlbio@163.com';
 $cfg_html_editor = 'ckeditor';
 $cfg_arcdir = '/a';
