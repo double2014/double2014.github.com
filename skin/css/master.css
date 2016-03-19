@@ -841,10 +841,10 @@ filter:alpha(opacity:30);
 	font-size:14px;
 }
 .hhbs li span {
-	float:right;
-	color:#fff;
-	margin-right:22px;
-	*margin-top:-33px;
+    float: right;
+    color: #000;
+    margin-right: 22px;
+    *margin-top: -33px;
 }
 .con2right {
 	width:254px;
